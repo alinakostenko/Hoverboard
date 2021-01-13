@@ -224,7 +224,7 @@ header .wrapper {
 .text_block h1 {
     margin-bottom: 55px;
 }
-.text_block > :nth-child(2) {
+.main_display .text_block > :nth-child(3) {
     margin-bottom: 70px;
 }
 .text_block a {
@@ -334,3 +334,24 @@ header .wrapper {
 }
 
 /* Section Choose END */
+
+/* Section Buy_it_now */
+
+.caption {
+    font-family: 'Bebas Neue', Arial, cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 86px;
+    line-height: 92px;
+    color: #3A3838;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.buy_it_now .text_block > :nth-child(2) {
+    margin-bottom: 50px;
+}
+.buy_it_now .text_block {
+    padding-top: 0;
+}
+
+/* Section Buy_it_now END */
