@@ -143,6 +143,17 @@ h2 {
     line-height: 48px;
     color: #3A3838;
     text-align: center;
+    text-transform: uppercase;
+}
+h3 {
+    font-family: 'Bebas Neue', Arial, cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+    color: #3A3838;
+    text-align: center;
+    text-transform: uppercase;
 }
 .flex {
     display: -webkit-box;
@@ -176,7 +187,7 @@ header .wrapper {
 .logo {
     margin-right: 70px;
 }
-.logo h3 {
+.logo p {
     font-family: 'Rubik', Arial, sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -193,7 +204,7 @@ header .wrapper {
     padding-left: 5px;
     margin-right: 10px;
 }
-.logo .circle h3 {
+.logo .circle p {
     color: #fff;
 }
 .header_menu li {
@@ -214,7 +225,7 @@ header .wrapper {
 }
 .main_display .wrapper {
     position: relative;
-    padding-bottom: 75px;
+    padding-bottom: 71px;
     align-items: flex-start;
 }
 .text_block {
@@ -236,9 +247,12 @@ header .wrapper {
 .text_block a img {
     padding-bottom: 6px;
 }
+.img_block {
+    width: 51%;
+    height: 675px;
+}
 .img_block img {
     width: 100%;
-    height: 100%;
 }
 .line {
     width: 1px;
@@ -330,6 +344,7 @@ header .wrapper {
     font-weight: 600;
     font-size: 28px;
     line-height: 34px;
+    color: #3A3838;
 }
 
 /* Section Choose END */
@@ -354,6 +369,11 @@ header .wrapper {
 }
 .buy_it_now .text_block {
     padding-top: 0;
+    width: 41%;
+}
+.buy_it_now .img_block {
+    height: 614px;
+    width: 49%;
 }
 .buy_it_now .line_top_left,
 .buy_it_now .line_top_right {
@@ -422,3 +442,112 @@ header .wrapper {
 }
 
 /* Section About_us END */
+
+/* Section Gallery */
+
+.gallery .wrapper {
+    padding-top: 100px;
+    padding-bottom: 115px;
+}
+.gallery_photos {
+    margin-top: 40px;
+}
+.gallery_photos li {
+    margin-bottom: 20px;
+    width: 32%;
+    height: 300px;
+}
+.gallery_photos li img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+/* Section Gallery END */
+
+/* Section Rental */
+
+.rental .wrapper {
+    align-items: flex-start;
+    padding-bottom: 130px;
+    position: relative;
+}
+.column {
+    width: 32%;
+    flex-direction: column;
+}
+.column ul li {
+    height: 55px;
+    border-top: 1px solid #D7CDAF;
+    color: #3A3838;
+    padding: 13px 0;
+    font-size: 20px;
+    text-align: center;
+}
+.rental .start ul li {
+    align-items: flex-start;
+    text-align: start;
+}
+.rental h2 {
+    text-align: start;
+}
+.column ul {
+    width: 100%;
+    margin-bottom: 23px;
+}
+.dollar {
+    font-size: 36px;
+    line-height: 36px;
+}
+.column_price {
+    font-size: 90px;
+    line-height: 70px;
+}
+.column_head_number {
+    align-items: start;
+    margin-top: 18px;
+}
+.column_head_number p {
+    font-family: 'Bebas Neue', Arial, cursive;
+    font-style: normal;
+    font-weight: bold;
+    color: #3A3838;
+}
+.column_head {
+    height: 270px;
+    padding-top: 75px;
+}
+.start .column_head {
+    padding-top: 95px;
+}
+.column ul li.disabled {
+    color: #C9C5C5;
+}
+.column ul li:last-child {
+    border-bottom: 1px solid #D7CDAF;
+}
+.rental .btn {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FFCC33;
+    padding: 20px 70px 16px;
+}
+.rental .line {
+    height: 680px;
+    top: 0;
+}
+.line_middle_left {
+    left: 485px;
+}
+.line_middle_right {
+    right: 485px;
+}
+
+/* Section Rental END */
+
+/* Section Reviews */
+
+/* Section Reviews END */
