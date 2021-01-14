@@ -138,11 +138,11 @@ h1 {
 h2 {
     font-family: 'Bebas Neue', Arial, cursive;
     font-style: normal;
-    font-weight: 400;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 48px;
     line-height: 48px;
     color: #3A3838;
+    text-align: center;
 }
 .flex {
     display: -webkit-box;
@@ -297,7 +297,6 @@ header .wrapper {
     padding-bottom: 120px;
 }
 .choose h2 {
-    text-align: center;
     margin-bottom: 30px;
 }
 .choose .wrapper > p {
@@ -337,6 +336,9 @@ header .wrapper {
 
 /* Section Buy_it_now */
 
+.buy_it_now .wrapper {
+    position: relative;
+}
 .caption {
     font-family: 'Bebas Neue', Arial, cursive;
     font-style: normal;
@@ -353,5 +355,70 @@ header .wrapper {
 .buy_it_now .text_block {
     padding-top: 0;
 }
+.buy_it_now .line_top_left,
+.buy_it_now .line_top_right {
+    height: 614px;
+    top: 0;
+}
 
 /* Section Buy_it_now END */
+
+/* Section About_us */
+
+.about_us .wrapper {
+    padding-top: 120px;
+    padding-bottom: 30px;
+    flex-direction: column;
+}
+.about_us h2 {
+    margin-bottom: 20px;
+}
+.our_company {
+    text-align: center;
+    width: 770px;
+    margin-bottom: 74px;
+}
+.about_us .sure {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #3A3838;
+}
+.goods {
+    margin-top: 30px;
+    position: relative;
+}
+.goods :nth-child(3) {
+    margin-right: 0;
+}
+.good {
+    text-align: center;
+    margin-right: 105px;
+    width: 210px;
+}
+.good_circle {
+    border: 1px solid #D7CDAF;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 5px;
+}
+.good_circle img {
+    margin-top: 19px;
+}
+.goods .line {
+    height: 1px;
+    width: 195px;
+}
+.goods_line_1 {
+    top: 40px;
+    left: 165px;
+}
+.goods_line_2 {
+    top: 40px;
+    right: 164px;
+}
+
+/* Section About_us END */
